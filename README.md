@@ -25,15 +25,15 @@ Dockering the WSO2 API manager.
  
  Provide docker a repository on your comupter:
 
-  mkdir /my-repository
+    mkdir /my-repository
+    
+    docker run -it -v /my-repository:/repository  gelareh/docker-openwrt-wso2am /bin/bash
 
-  docker run -it -v /my-repository:/repository  gelareh/docker-openwrt-wso2am /bin/bash
-
- * Run and check the wso2-api-manager console on your own computer. For this you should expose 
+* Run and check the wso2-api-manager console on your own computer. For this you should expose 
  
-  docker run -it -p 9443:9443 -v /my-repository:/repository   gelareh/docker-openwrt-wso2am
+    docker run -it -p 9443:9443 -v /my-repository:/repository   gelareh/docker-openwrt-wso2am
 
-  Find the  Mgt Console URL  : https://172.17.0.27:9443/carbon/ (example)
+  Find the  Mgt Console URL: https://172.17.0.27:9443/carbon/ (example)
 
   in the logs and give it in your computer browser.
 
