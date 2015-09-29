@@ -1,4 +1,4 @@
-/bin/bash
+#!/bin/bash
 if [ "$(ls -A $MOUNTED_REPOSITORY_DIR)" ]; then
 # is not Empty
 rm -rf $WSO2AM_HOME_REPOSITORY
