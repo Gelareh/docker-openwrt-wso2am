@@ -15,7 +15,7 @@ Dockering the WSO2 API manager.
 
 * Build:
 
-  cd <Your-docker-openwrt-wso2am-Path>
+    cd <Your-docker-openwrt-wso2am-Path>
   
   docker build -t gelareh/docker-openwrt-wso2am . 
   
