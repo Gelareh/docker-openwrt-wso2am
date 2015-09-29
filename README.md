@@ -33,9 +33,7 @@ Dockering the WSO2 API manager.
  
     docker run -it -p 9443:9443 -v /my-repository:/repository   gelareh/docker-openwrt-wso2am
 
-  Find the  Mgt Console URL: https://172.17.0.27:9443/carbon/ (example)
+  Find the  Mgt Console URL: https://172.17.0.27:9443/carbon/ (example) in the logs and give it in your computer         browser.
 
-  in the logs and give it in your computer browser.
-
-  Note: If your computer port 9443 is used. Give an arbitary free port and adapt the given URL as so.
+  Note: If the computer port 9443 is used. Give an arbitary free port and adapt the given URL as so.
   
