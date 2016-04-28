@@ -1,7 +1,7 @@
 # docker-openwrt-wso2am
 Dockerizing the WSO2 API manager: 
 
-* To avoid downloading the source each time a build is done, download the source dist folder:
+* To avoid downloading the source each time a build is done, download the source once under the dist folder:
 
 1. Manually: Put the the file e.g. wso2am-1.9.1.zip under:
 
