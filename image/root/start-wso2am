@@ -16,3 +16,5 @@ sh $WSO2AM_HOME/bin/wso2server.sh debug $WSO2AM_DEBUG_PORT
 sh $WSO2AM_HOME/bin/wso2server.sh
 ;;
 esac
+
+
