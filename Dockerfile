@@ -11,7 +11,7 @@ ENV WSO2AM_RUN_MODE=normal
 ADD image/root /
 RUN mkdir -p /mnt/packs
 ADD dist/ /mnt/packs
-# Download WSO2AM and installing it
+# Download and install WSO2AM 
 RUN mkdir -p ${WSO2AM_HOME} && mkdir -p ${MOUNTED_REPOSITORY_DIR} && \
 opkg update && \
 opkg install unzip && \
