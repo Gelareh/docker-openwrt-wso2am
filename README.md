@@ -5,16 +5,16 @@ Dockerizing the WSO2 API manager:
 
 1. Manually: Put the the file e.g. wso2am-1.9.1.zip under:
 
-  ` <Your-docker-openwrt-wso2am-Path>/dist  `
+  ` <wso2am_HOME>/dist  `
 2. Automatically: run the **download-wso2am.sh** script file:
 
- ` cd <Your-docker-openwrt-wso2am-Path>/dist `
+ ` cd <wso2am_HOME>/dist `
  
   ` sh download-wso2am.sh `
 
 * Build:
    
-   ` cd <Your-docker-openwrt-wso2am-Path> `
+   ` cd <wso2am_HOME> `
      
    ` docker build -t gelareh/docker-openwrt-wso2am .  `
 
